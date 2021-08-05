@@ -1,0 +1,720 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+}
+
+h2, h3, h4 {
+color: rgb(255, 60, 0);
+} 
+p {
+color: rgb(255, 60, 0);
+}
+body {
+    text-align: center;
+}
+.menu-del-index li {
+        padding: 100px;
+    display: block;
+        font-size: 40px;
+    }
+    /*----------fotos-nav-principal---------*/
+.menu-del-index__remeras {
+    background-image: url("../imagesnueva/remeras.png") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.menu-del-index__remeras:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.menu-del-index__conjuntos {
+    background-image: url("../imagesnueva/conjuntos.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Dela Gothic One', cursive;
+}
+.menu-del-index__conjuntos:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.menu-del-index__chombas {
+    background-image: url("../imagesnueva/chomba.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Dela Gothic One', cursive;
+}
+.menu-del-index__chombas:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.menu-del-index__jeans {
+    background-image: url("../imagesnueva/jeans.png") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Dela Gothic One', cursive;
+}
+.menu-del-index__jeans:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.menu-del-index__sweaters {
+    background-image: url("../imagesnueva/sweaters.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Dela Gothic One', cursive;
+}
+.menu-del-index__sweaters:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.menu-del-index__buzos {
+    background-image: url("../imagesnueva/buzo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Dela Gothic One', cursive;
+}
+.menu-del-index__buzos:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+/*----------fotos-nav-principal---------*/
+/*----------texto-nav-principal---------*/
+#remera {
+    font-size: 75px;
+    text-decoration: underline;
+    color: inherit;
+    letter-spacing: 10px;
+}
+#conjunto {
+@extend #remera
+}
+#chomba {
+@extend #remera
+}
+#jean {
+@extend #remera
+}
+#sweater {
+@extend #remera
+}
+#buzos {
+@extend #remera
+}
+/*----------texto-nav-principal---------*/
+/*----------textos-h---------*/
+h2 {
+    font-size: 50px;
+    font-family: 'Benne', serif;
+}
+h3 {
+    font-size: 40px;
+    font-family: 'Benne', serif;
+}
+/*----------textos-h---------*/
+#destacados {
+        margin: 20px auto;
+    }
+#semana {
+        margin: 20px auto;
+    }
+/*----------fondo-de-pagina---------*/
+    footer {
+        background-image: url("../fondos/low_contrast_linen.png") ;
+    }
+    body {
+        background-image: url("../fondos/full-bloom.png") ;
+    }
+/*----------fondo-de-pagina---------*/
+/*----------listas---------*/
+    #contacto {
+        text-decoration: none;
+        color: white;
+    }
+    #insta {
+        color: white;
+        text-decoration: none;
+    }
+    #mapaLista {
+        color: white;
+        list-style-position: inside;
+    }
+    #instaLista {
+        color: white;
+list-style-position: inside;
+    }
+    #pagoLista { 
+color: white;
+list-style-position: inside;
+    }
+    #contactoLista {
+        color: white;
+list-style-position: inside;
+    }
+    #instaLista {
+        color: white;
+list-style-position: inside;
+    }
+    #mapa {
+        border-radius: 10px;
+    }
+/*----------listas---------*/
+/*----------estilo-header---------*/
+    .navbar-brand {
+        font-size: 5rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: black;
+        text-shadow: 2px 2px 5px wheat;
+        display: flex;   
+        margin-top: 0px;
+    }
+    .container-fluid{
+        height: 150px;
+        background-image: url(../fondos/low_contrast_linen.png);
+    }
+    .container{
+        background-color: gray;
+        border-radius: 8px;
+    }
+    .listaDeNav{
+        text-decoration: none;
+        color: inherit;
+    }
+/*----------estilo-header---------*/
+/*----------productos-destacados---------*/
+.contenedor-destacados {
+    border: 3px solid black;
+    display: grid;
+    height: auto;
+    width: 800px;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    grid-template-areas: "producto1 producto2 producto3"
+                         "descrip1 descrip2 descrip3";
+
+                         .producto1 {
+                            grid-area: "producto1";
+                            background-image: url(../fotosjose/chombas.jfif);
+                            height: 500px;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            margin-right: 5px;
+                            border-right: 5px solid black;
+                            }
+                            .producto2 {
+                                grid-area: "producto2";
+                                background-image: url(../fotosjose/buzorojo.jfif);
+                                height: 500px;
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                margin-left: 5px;
+                                margin-right: 5px; 
+                                border-left: 5px solid black;
+                                border-right: 5px solid black;
+                            }
+                            .producto3 {
+                                grid-area: "producto3";
+                                background-image: url(../fotosjose/sweaterrosa.jfif);
+                                height: 500px;
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                margin-left: 5px;
+                                border-left: 5px solid black;
+                            }
+                            .producto1:hover{
+                                transform: scale(1.2);
+                                border: 3px solid black;
+                                border-radius: 5px;
+                                transition: all 1s;
+                            }
+                            .producto2:hover{
+                                transform: scale(1.2);
+                                border: 3px solid black;
+                                border-radius: 5px;
+                                transition: all 1s;
+                            }
+                            .producto3:hover{
+                                transform: scale(1.2);
+                                border: 3px solid black;
+                                border-radius: 5px;
+                                transition: all 1s;
+                            }
+                            .descrip1 {
+                                grid-area: "descrip1";
+                                background-color: gray;
+                                color: white;
+                                text-shadow: 3px 3px 3px black;
+                                border-right: 5px solid black;
+                                border-top: 3px solid black;
+                                }
+                            .descrip2 {
+                                grid-area: "descrip2";
+                                background-color: gray;
+                                color: white;
+                                text-shadow: 3px 3px 3px black;
+                                border-top: 3px solid black;
+                                }
+                            .descrip3 {
+                                grid-area: "descrip3";
+                                background-color: gray;
+                                color: white;
+                                text-shadow: 3px 3px 3px black;
+                                border-left: 5px solid black;
+                                border-top: 3px solid black;
+                                }
+}
+/*----------productos-destacados---------*/
+/*----------producto-semana--------*/
+.contenedor-semana {
+    border: 5px solid black;
+    display: grid;
+    height: auto;
+    width: 80%;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    grid-template-areas: "prenda descripcion1 beneficios_titulo"
+                         "skinny descripcion_semana beneficios"
+}
+.prenda {
+grid-area: "prenda";
+background-image: url(../fondos/low_contrast_linen.png);
+color: white;
+border-right: 2px solid gray;
+border-bottom: 2px solid gray;
+font-family: sans-serif;
+text-transform: uppercase;
+padding: 2px;
+}
+.descripcion1 {
+grid-area: "descripcion1";
+background-image: url(../fondos/low_contrast_linen.png);
+color: white;
+border-right: 2px solid gray;
+border-bottom: 2px solid gray;
+font-family: sans-serif;
+text-transform: uppercase;
+padding: 2px;
+}
+.beneficios_titulo {
+grid-area: "beneficios_titulo";
+background-image: url(../fondos/low_contrast_linen.png);
+color: white;
+border-bottom: 2px solid gray;
+font-family: sans-serif;
+text-transform: uppercase;
+padding: 2px;
+}
+.skinny {
+grid-area: "skinny";
+background-color: gainsboro;
+border-right: 2px solid gray;
+border-bottom: 2px solid gray;
+padding: 2px;
+}
+.descripcion_semana {
+grid-area: "descripcion_semana";
+background-color: gainsboro;
+border-right: 2px solid gray;
+border-bottom: 2px solid gray;
+padding: 2px;
+}
+.beneficios {
+grid-area: "beneficios";
+background-color: gainsboro;
+border-bottom: 2px solid gray;
+padding: 2px;
+}          
+.producto-skinny {
+    border: 3px solid black;
+    border-radius: 7px;
+    display: grid;
+    height: 500px;
+    width: 400px;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color:black;
+
+.foto-producto {
+    grid-area: "foto_producto";
+    background-image: url(../imagesjeans/jeantres.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    }
+}
+    /*----------producto-semana--------*/
+    /*----------divisiones--------*/
+    .fondo {
+        font-size: 50px;
+        text-transform: uppercase;
+        margin-top: 40px;
+        background-image: url(../fondos/low_contrast_linen.png);
+        color: black;
+        text-shadow: 2px 2px 2px wheat;
+        border-radius: 500px;
+        border: 1px solid black;
+        margin-bottom: 40px;
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-delay: 4s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        }
+
+        @keyframes aparecer{
+
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+
+        .foto-producto:hover {
+            transform: scale(1.2);
+            border: 3px solid black;
+            border-radius: 5px;
+            transition: all 1s;
+        }
+/*----------divisiones--------*/
+
+
+/*----------contacto---------*/
+
+.contacto{
+    font-size: 90px;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    text-shadow: 5px 5px 5px wheat;
+}
+input{
+    text-align: center;
+    margin: 5px;
+    transition: all 1s;
+}
+    input:focus{
+        font-size: 20px;
+        border: 2px solid orangered;
+    }
+    .aviso  {
+        font-size: 50px;
+        text-transform: uppercase;
+        color: black;
+        text-shadow: 2px 2px 2px orangered;
+    }
+/*----------contacto---------*/
+
+
+/*----------responsive--------*/
+@media only screen and (min-width: 480px){
+
+}
+/*----------responsive--------*/
+
+/*----------listas-de-nav---------*/
+.container{
+    list-style: none;
+    background-image: url(../fondos/low_contrast_linen.png);
+    border: 2px solid #000;
+    font-size: 0;
+    word-spacing: 130px;
+    color: white;
+    border-right: 2px solid #000 ;
+    height: 50px;
+    text-decoration: none;
+}
+.colorlista{
+    text-decoration: none;
+    color: inherit;
+    color: white;
+    text-shadow: 5px 5px 5px wheat;
+}
+.container__lista {
+    display: inline;
+    width: 20%;
+    position: relative;
+    font-size: 30px;
+    word-spacing: 60px;
+    text-decoration: none;
+}
+.container__lista {
+    text-decoration: none;
+}
+
+.container__lista a:hover {
+    color: orangered;
+    transition: all 1s;
+}
+
+.nav-header ul {
+    position: absolute;
+    display: none;
+}
+
+.nav-header ul li {
+display: block;
+}
+
+/*----------listas-de-nav---------*/
+
+/*----------fuentes/secciones---------*/
+#buzosh2 {
+    color: black;
+    font-size: 100px;
+}
+#chombash2 {
+    color: black;
+    font-size: 100px;
+}
+#conjuntosh2 {
+    color: black;
+    font-size: 100px;
+}
+#jeansh2 {
+    color: black;
+    font-size: 100px;
+}
+#remerash2 {
+    color: black;
+    font-size: 100px;
+}
+#sweatersh2 {
+    color: black;
+    font-size: 100px;
+}
+/*----------fuentes/secciones---------*/
+
+/*----------buzos---------*/
+
+.buzo-producto{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.card-text {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+}
+.card-title {
+    color: orangered;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.card-img-top:hover{
+    transform: scale(1.7);
+    transition: all 1s;
+}
+/*----------buzos---------*/
+/*----------chombas---------*/
+.chombaAmarilla{
+    height: 300px;
+    width: auto;
+    border: 2px solid gray;
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+}
+.chombaAmarilla:hover{
+    transform: scale(1.7);
+    transition: all 1s;
+}
+.pamarilla{
+    text-align: center;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.chombaNegra{
+    @extend .chombaAmarilla
+}
+.chombaNegra:hover{
+    transform: scale(1.7);
+    transition: all 1s;
+}
+.pnegra{
+@extend .pamarilla
+}
+.chombaRoja{
+    @extend .chombaAmarilla
+}
+.chombaRoja:hover{
+    transform: scale(1.7);
+    transition: all 1s;
+}
+.proja{
+    @extend .pamarilla
+}
+
+.cajaProductos {
+display: flex;
+justify-content: center;
+margin: 10px;
+}
+/*----------chombas---------*/
+/*----------conjuntos---------*/
+
+.conjuntoUno{
+    @extend .chombaAmarilla
+}
+.conjuntoUno:hover{
+    transform: scale(1.7);
+    transition: all 1s;
+}
+.puno{
+    @extend .pamarilla
+}
+.conjuntoDos{
+    @extend .chombaAmarilla
+}
+.conjuntoDos:hover{
+    transform: scale(1.7);
+    transition: all 1s;
+}
+.pdos{
+    @extend .pamarilla
+}
+.conjuntoTres{
+    @extend .chombaAmarilla
+}
+.conjuntoTres:hover{
+    transform: scale(1.7);
+    transition: all 1s;
+}
+.ptres{
+    @extend .pamarilla
+}
+/*----------conjuntos---------*/
+/*----------jeans---------*/
+.jeanUno{
+    @extend .chombaAmarilla
+}
+.jeanUno:hover{
+    transform: scale(1.7);
+    transition: all 1s;
+}
+.pjeanuno{
+    @extend .pamarilla
+}
+.jeanDos{
+    @extend .chombaAmarilla
+}
+.jeanDos:hover{
+    transform: scale(1.7);
+    transition: all 1s;
+}
+.pjeandos{
+    @extend .pamarilla
+}
+.jeanTres{
+    @extend .chombaAmarilla
+}
+.jeanTres:hover{
+    transform: scale(1.7);
+    transition: all 1s;
+}
+.pjeantres{
+    @extend .pamarilla
+}
+/*----------jeans---------*/
+/*----------remeras---------*/
+.remeraUno{
+    @extend .chombaAmarilla
+}
+.remeraUno:hover{
+    transform: scale(1.7);
+    transition: all 1s;
+}
+.premerauno{
+    @extend .pamarilla
+}
+.remeraDos{
+    @extend .chombaAmarilla
+}
+.remeraDos:hover{
+    transform: scale(1.7);
+    transition: all 1s;
+}
+.premerados{
+    @extend .pamarilla
+}
+.remeraTres{
+    @extend .chombaAmarilla
+}
+.remeraTres:hover{
+    transform: scale(1.7);
+    transition: all 1s;
+}
+.premeratres{
+    @extend .pamarilla
+}
+/*----------remeras---------*/
+/*----------sweaters---------*/
+.sweaterUno{
+    @extend .chombaAmarilla
+}
+.sweaterUno:hover{
+    transform: scale(1.7);
+    transition: all 1s;
+}
+.psweateruno{
+    @extend .pamarilla
+}
+.sweaterDos{
+    @extend .chombaAmarilla
+}
+.sweaterDos:hover{
+    transform: scale(1.7);
+    transition: all 1s;
+}
+.psweaterdos{
+    @extend .pamarilla
+}
+.sweaterTres{
+    @extend .chombaAmarilla
+}
+.sweaterTres:hover{
+    transform: scale(1.7);
+    transition: all 1s;
+}
+.psweatertres{
+    @extend .pamarilla
+}
+/*----------sweaters---------*/
+/*----------carousel---------*/
+
+.carousel-inner img {
+    border-radius: 8px;
+    border: 2px solid black;
+}
+/*----------carousel---------*/
