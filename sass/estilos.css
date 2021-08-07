@@ -120,10 +120,17 @@ body {
 /*----------fotos-nav-principal---------*/
 /*----------texto-nav-principal---------*/
 #remera, #conjunto, #chomba, #jean, #sweater, #buzos {
-  font-size: 75px;
-  text-decoration: underline;
-  color: inherit;
-  letter-spacing: 10px;
+  bottom: 0;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 2px 2px 2px black;
+  display: block;
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 0;
+  opacity: 0.76;
+  text-align: center;
+  text-shadow: 1px 1px 1px #666;
+  text-transform: uppercase;
 }
 
 /*----------texto-nav-principal---------*/
@@ -134,8 +141,18 @@ h2 {
 }
 
 h3 {
-  font-size: 40px;
-  font-family: 'Benne', serif;
+  background-color: #686969;
+  bottom: 0;
+  color: black;
+  text-shadow: 2px 2px 5px wheat;
+  display: block;
+  font-size: 5rem;
+  font-weight: bold;
+  margin-top: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /*----------textos-h---------*/
@@ -330,103 +347,6 @@ body {
 }
 
 /*----------productos-destacados---------*/
-/*----------producto-semana--------*/
-.contenedor-semana {
-  border: 5px solid black;
-  display: -ms-grid;
-  display: grid;
-  height: auto;
-  width: 80%;
-  font-size: 30px;
-  text-align: center;
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-      grid-template-areas: "prenda descripcion1 beneficios_titulo" "skinny descripcion_semana beneficios";
-}
-
-.prenda {
-  grid-area: "prenda";
-  background-image: url(../fondos/low_contrast_linen.png);
-  color: white;
-  border-right: 2px solid gray;
-  border-bottom: 2px solid gray;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  padding: 2px;
-}
-
-.descripcion1 {
-  grid-area: "descripcion1";
-  background-image: url(../fondos/low_contrast_linen.png);
-  color: white;
-  border-right: 2px solid gray;
-  border-bottom: 2px solid gray;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  padding: 2px;
-}
-
-.beneficios_titulo {
-  grid-area: "beneficios_titulo";
-  background-image: url(../fondos/low_contrast_linen.png);
-  color: white;
-  border-bottom: 2px solid gray;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  padding: 2px;
-}
-
-.skinny {
-  grid-area: "skinny";
-  background-color: gainsboro;
-  border-right: 2px solid gray;
-  border-bottom: 2px solid gray;
-  padding: 2px;
-}
-
-.descripcion_semana {
-  grid-area: "descripcion_semana";
-  background-color: gainsboro;
-  border-right: 2px solid gray;
-  border-bottom: 2px solid gray;
-  padding: 2px;
-}
-
-.beneficios {
-  grid-area: "beneficios";
-  background-color: gainsboro;
-  border-bottom: 2px solid gray;
-  padding: 2px;
-}
-
-.producto-skinny {
-  border: 3px solid black;
-  border-radius: 7px;
-  display: -ms-grid;
-  display: grid;
-  height: 500px;
-  width: 400px;
-  font-size: 30px;
-  text-align: center;
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color: black;
-}
-
-.producto-skinny .foto-producto {
-  grid-area: "foto_producto";
-  background-image: url(../imagesjeans/jeantres.jfif);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 5px;
-}
-
-/*----------producto-semana--------*/
 /*----------divisiones--------*/
 .fondo {
   font-size: 50px;
@@ -771,4 +691,75 @@ input:focus {
 }
 
 /*----------carousel---------*/
+/*----------parallax---------*/
+section {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  margin: 0 auto;
+  max-width: 1440px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.wraper {
+  -webkit-box-shadow: 0 0 12px black;
+          box-shadow: 0 0 12px black;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.bloqueuno {
+  background-image: url("../fabrica/fabricados.jpg");
+  height: 500px;
+  width: auto;
+}
+
+.bloquedos {
+  background-image: url("../fabrica/fabricauno.jpg");
+  height: 500px;
+}
+
+.bloquetres {
+  background-image: url("../fabrica/fabricatres.jpg");
+  height: 500px;
+}
+
+.bloquecuatro {
+  background-image: url("../fabrica/fabricacuatro.jpg");
+  height: 500px;
+}
+
+.bloquecinco {
+  background-image: url("../fabrica/fabricacinco.jpg");
+  height: 500px;
+}
+
+.parallax {
+  background-color: #1e2b35;
+  bottom: 0;
+  color: rgba(255, 255, 255, 0.9);
+  display: block;
+  font-size: 5em;
+  font-weight: bold;
+  margin-top: 3em;
+  opacity: 0.76;
+  text-align: center;
+  text-shadow: 1px 1px 1px #666;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+#logo {
+  display: block;
+  margin: 6em auto 0;
+  opacity: 0.8;
+  width: 250px;
+  height: 250px;
+}
+
+/*----------parallax---------*/
 /*# sourceMappingURL=estilos.css.map */
