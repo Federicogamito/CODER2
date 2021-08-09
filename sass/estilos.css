@@ -285,7 +285,7 @@ header {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background-image: url("/images/low_contrast_linen.png");
+    background-image: url("../fondos/low_contrast_linen.png");
     right: -100%;
     top: 0;
     text-align: center;
