@@ -189,26 +189,88 @@ list-style-position: inside;
     }
 /*----------listas---------*/
 /*----------estilo-header---------*/
-    .navbar-brand {
-        font-size: 5rem;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        color: black;
-        text-shadow: 2px 2px 5px wheat;
-        display: flex;   
-        margin-top: 0px;
+header{
+    height: 100px;
+    background-image: url("/images/low_contrast_linen.png");
+    padding: 0 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-transform: uppercase;
+    color: black;
+    text-shadow: 2px 2px 2px wheat;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.menu  a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 10px;
+    transition: 0.4s;
+}
+
+.mostrar-menu,
+.esconder-menu{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+}
+
+.mostrar-menu{
+    order: 1;
+}
+
+.menu a:hover,
+.mostrar-menu:hover,
+.esconder-menu:hover{
+    color: orangered;
+}
+
+#check {
+    display: none;
+}
+
+/* responsive */
+
+@media(max-width: 768px) {
+    /* header */
+    .mostrar-menu,
+    .esconder-menu{
+        display: block;
     }
-    .container-fluid{
-        height: 150px;
-        background-image: url(../fondos/low_contrast_linen.png);
+    .menu{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-image: url("/images/low_contrast_linen.png");
+        right: -100%;
+        top: 0;
+        text-align: center;
+        padding: 100px 0px;
+        z-index: 100;
+        transition: 0.8s;
     }
-    .container{
-        background-color: gray;
-        border-radius: 8px;
+    .menu a{
+        display: block;
+        padding: 20px;
     }
-    .listaDeNav{
-        text-decoration: none;
-        color: inherit;
+    .esconder-menu {
+        position: absolute;
+        top: 40px;
+        right: 40px;
     }
+    #check:checked ~ .menu{
+        right: 0;
+    }
+
+}
 /*----------estilo-header---------*/
 /*----------productos-destacados---------*/
 .contenedor-destacados {
