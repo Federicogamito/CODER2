@@ -333,12 +333,22 @@ h5{
     background: red;
     color: white;
 }
-
-
-
-
-
 /*----------productos-destacados---------*/
+/*----------nav secciones---------*/
+
+.nav-secciones{
+    height: 5vh;
+    background: gray;
+    margin-top: 10px;
+}
+.secciones{
+    color: white;
+    font-size: 25px;
+    padding: 5%;
+}
+
+
+/*----------nav secciones---------*/
     /*----------divisiones--------*/
     .fondo {
         font-size: 50px;
@@ -447,27 +457,27 @@ display: block;
 /*----------fuentes/secciones---------*/
 #buzosh2 {
     color: black;
-    font-size: 100px;
+    font-size: 50px;
 }
 #chombash2 {
     color: black;
-    font-size: 100px;
+    font-size: 50px;
 }
 #conjuntosh2 {
     color: black;
-    font-size: 100px;
+    font-size: 50px;
 }
 #jeansh2 {
     color: black;
-    font-size: 100px;
+    font-size: 50px;
 }
 #remerash2 {
     color: black;
-    font-size: 100px;
+    font-size: 50px;
 }
 #sweatersh2 {
     color: black;
-    font-size: 100px;
+    font-size: 50px;
 }
 /*----------fuentes/secciones---------*/
 
@@ -492,8 +502,8 @@ display: block;
     text-align: center;
 }
 .card-img-top:hover{
-    transform: scale(1.7);
-    transition: all 1s;
+    transform: scale(1.5);
+    transition: all 1.5s;
 }
 /*----------buzos---------*/
 /*----------chombas---------*/
@@ -538,7 +548,6 @@ display: block;
 .cajaProductos {
 display: flex;
 justify-content: center;
-margin: 10px;
 }
 /*----------chombas---------*/
 /*----------conjuntos---------*/

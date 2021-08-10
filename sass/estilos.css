@@ -384,6 +384,20 @@ h5 {
 }
 
 /*----------productos-destacados---------*/
+/*----------nav secciones---------*/
+.nav-secciones {
+  height: 5vh;
+  background: gray;
+  margin-top: 10px;
+}
+
+.secciones {
+  color: white;
+  font-size: 25px;
+  padding: 5%;
+}
+
+/*----------nav secciones---------*/
 /*----------divisiones--------*/
 .fondo {
   font-size: 50px;
@@ -516,32 +530,32 @@ input:focus {
 /*----------fuentes/secciones---------*/
 #buzosh2 {
   color: black;
-  font-size: 100px;
+  font-size: 50px;
 }
 
 #chombash2 {
   color: black;
-  font-size: 100px;
+  font-size: 50px;
 }
 
 #conjuntosh2 {
   color: black;
-  font-size: 100px;
+  font-size: 50px;
 }
 
 #jeansh2 {
   color: black;
-  font-size: 100px;
+  font-size: 50px;
 }
 
 #remerash2 {
   color: black;
-  font-size: 100px;
+  font-size: 50px;
 }
 
 #sweatersh2 {
   color: black;
-  font-size: 100px;
+  font-size: 50px;
 }
 
 /*----------fuentes/secciones---------*/
@@ -571,10 +585,10 @@ input:focus {
 }
 
 .card-img-top:hover {
-  -webkit-transform: scale(1.7);
-          transform: scale(1.7);
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
 }
 
 /*----------buzos---------*/
@@ -623,7 +637,6 @@ input:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 10px;
 }
 
 /*----------chombas---------*/
