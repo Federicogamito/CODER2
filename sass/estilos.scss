@@ -24,6 +24,7 @@ body {
     /*----------fotos-nav-principal---------*/
 .menu-del-index__remeras {
     background-image: url("../imagesnueva/remeras.png") ;
+    height: 35vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -96,7 +97,7 @@ body {
     color: rgba(255, 255, 255, 0.9);
     text-shadow: 2px 2px 2px black;
     display: block;
-    font-size: 3em;
+    font-size: 80px;
     font-weight: bold;
     margin-top: 0;
     opacity: 0.76;
@@ -191,7 +192,7 @@ list-style-position: inside;
 /*----------estilo-header---------*/
 header{
     height: 100px;
-    background-image: url("/images/low_contrast_linen.png");
+    background-image: url("../fondos/low_contrast_linen.png");
     padding: 0 50px;
     color: white;
     display: flex;
@@ -269,97 +270,74 @@ header{
     #check:checked ~ .menu{
         right: 0;
     }
+    /* menu principal */
+#remera{
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+    /* destacados */
+
+    #destacados{
+        flex-direction: column;
+    }
 
 }
 /*----------estilo-header---------*/
 /*----------productos-destacados---------*/
-.contenedor-destacados {
-    border: 3px solid black;
-    display: grid;
-    height: auto;
-    width: 800px;
-    font-size: 50px;
+#destacados{
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    grid-template-areas: "producto1 producto2 producto3"
-                         "descrip1 descrip2 descrip3";
-
-                         .producto1 {
-                            grid-area: "producto1";
-                            background-image: url(../fotosjose/chombas.jfif);
-                            height: 500px;
-                            background-position: center;
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            margin-right: 5px;
-                            border-right: 5px solid black;
-                            }
-                            .producto2 {
-                                grid-area: "producto2";
-                                background-image: url(../fotosjose/buzorojo.jfif);
-                                height: 500px;
-                                background-position: center;
-                                background-repeat: no-repeat;
-                                background-size: cover;
-                                margin-left: 5px;
-                                margin-right: 5px; 
-                                border-left: 5px solid black;
-                                border-right: 5px solid black;
-                            }
-                            .producto3 {
-                                grid-area: "producto3";
-                                background-image: url(../fotosjose/sweaterrosa.jfif);
-                                height: 500px;
-                                background-position: center;
-                                background-repeat: no-repeat;
-                                background-size: cover;
-                                margin-left: 5px;
-                                border-left: 5px solid black;
-                            }
-                            .producto1:hover{
-                                transform: scale(1.2);
-                                border: 3px solid black;
-                                border-radius: 5px;
-                                transition: all 1s;
-                            }
-                            .producto2:hover{
-                                transform: scale(1.2);
-                                border: 3px solid black;
-                                border-radius: 5px;
-                                transition: all 1s;
-                            }
-                            .producto3:hover{
-                                transform: scale(1.2);
-                                border: 3px solid black;
-                                border-radius: 5px;
-                                transition: all 1s;
-                            }
-                            .descrip1 {
-                                grid-area: "descrip1";
-                                background-color: gray;
-                                color: white;
-                                text-shadow: 3px 3px 3px black;
-                                border-right: 5px solid black;
-                                border-top: 3px solid black;
-                                }
-                            .descrip2 {
-                                grid-area: "descrip2";
-                                background-color: gray;
-                                color: white;
-                                text-shadow: 3px 3px 3px black;
-                                border-top: 3px solid black;
-                                }
-                            .descrip3 {
-                                grid-area: "descrip3";
-                                background-color: gray;
-                                color: white;
-                                text-shadow: 3px 3px 3px black;
-                                border-left: 5px solid black;
-                                border-top: 3px solid black;
-                                }
 }
+
+#destacados img{
+    height: 40vh;
+    width: 30vh;
+    border-radius: 2%;
+}
+
+#destacados img:hover{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+#personas div{
+    padding: 30px 30px;
+}
+
+h5{
+    color: black;
+    font-size: 30px;
+    margin: 15px 0px;
+}
+
+.parrafo-destacados{
+    color: gray;
+    font-size: 20px;
+}
+
+.boton-comprar{
+    display: inline-block;
+    text-decoration: none;
+    color: orangered;
+    padding: 10px 30px;
+    border: 3px solid orangered;
+    border-radius: 30px;
+    margin: 15px 0px;
+    font-size: 20px;
+    transition: all 0.4s;
+}
+.boton-comprar:hover{
+    background: red;
+    color: white;
+}
+
+
+
+
+
 /*----------productos-destacados---------*/
     /*----------divisiones--------*/
     .fondo {
@@ -396,10 +374,7 @@ header{
             transition: all 1s;
         }
 /*----------divisiones--------*/
-
-
 /*----------contacto---------*/
-
 .contacto{
     font-size: 90px;
     text-transform: uppercase;
@@ -423,14 +398,6 @@ input{
         text-shadow: 2px 2px 2px orangered;
     }
 /*----------contacto---------*/
-
-
-/*----------responsive--------*/
-@media only screen and (min-width: 480px){
-
-}
-/*----------responsive--------*/
-
 /*----------listas-de-nav---------*/
 .container{
     list-style: none;
@@ -775,3 +742,4 @@ section{
     height: 250px;
 }
 /*----------parallax---------*/
+
