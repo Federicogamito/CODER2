@@ -275,6 +275,7 @@ header{
     font-size: 20px;
     text-align: center;
     justify-content: center;
+
 }
     /* destacados */
 
@@ -504,6 +505,12 @@ display: block;
 .card-img-top:hover{
     transform: scale(1.5);
     transition: all 1.5s;
+}
+
+.card{
+    margin: 10px;
+    border: 3px solid gray;
+    border-radius: 8px;
 }
 /*----------buzos---------*/
 /*----------chombas---------*/

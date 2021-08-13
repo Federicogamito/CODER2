@@ -591,6 +591,12 @@ input:focus {
   transition: all 1.5s;
 }
 
+.card {
+  margin: 10px;
+  border: 3px solid gray;
+  border-radius: 8px;
+}
+
 /*----------buzos---------*/
 /*----------chombas---------*/
 .chombaAmarilla, .chombaNegra, .chombaRoja, .conjuntoUno, .conjuntoDos, .conjuntoTres, .jeanUno, .jeanDos, .jeanTres, .remeraUno, .remeraDos, .remeraTres, .sweaterUno, .sweaterDos, .sweaterTres {
