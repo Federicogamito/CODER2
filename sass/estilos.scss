@@ -17,9 +17,14 @@ body {
     text-align: center;
 }
 .menu-del-index li {
-        padding: 100px;
+    padding: 100px;
     display: block;
-        font-size: 40px;
+    font-size: 40px;
+    }
+
+    .menu-del-index{
+        margin: 0 2vh;
+        
     }
     /*----------fotos-nav-principal---------*/
 .menu-del-index__remeras {
@@ -32,7 +37,7 @@ body {
 }
 
 .menu-del-index__remeras:hover{
-    transform: scale(1.1);
+    transform: scale(1.01);
     transition: all 1s;
 }
 .menu-del-index__conjuntos {
@@ -43,7 +48,7 @@ body {
     font-family: 'Dela Gothic One', cursive;
 }
 .menu-del-index__conjuntos:hover{
-    transform: scale(1.1);
+    transform: scale(1.01);
     transition: all 1s;
 }
 .menu-del-index__chombas {
@@ -54,7 +59,7 @@ body {
     font-family: 'Dela Gothic One', cursive;
 }
 .menu-del-index__chombas:hover{
-    transform: scale(1.1);
+    transform: scale(1.01);
     transition: all 1s;
 }
 .menu-del-index__jeans {
@@ -65,7 +70,7 @@ body {
     font-family: 'Dela Gothic One', cursive;
 }
 .menu-del-index__jeans:hover{
-    transform: scale(1.1);
+    transform: scale(1.01);
     transition: all 1s;
 }
 .menu-del-index__sweaters {
@@ -76,7 +81,7 @@ body {
     font-family: 'Dela Gothic One', cursive;
 }
 .menu-del-index__sweaters:hover{
-    transform: scale(1.1);
+    transform: scale(1.01);
     transition: all 1s;
 }
 .menu-del-index__buzos {
@@ -87,7 +92,7 @@ body {
     font-family: 'Dela Gothic One', cursive;
 }
 .menu-del-index__buzos:hover{
-    transform: scale(1.1);
+    transform: scale(1.01);
     transition: all 1s;
 }
 /*----------fotos-nav-principal---------*/
@@ -272,11 +277,12 @@ header{
     }
     /* menu principal */
 #remera{
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     justify-content: center;
-
 }
+
+
     /* destacados */
 
     #destacados{
@@ -510,7 +516,7 @@ display: block;
 .card{
     margin: 10px;
     border: 3px solid gray;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 /*----------buzos---------*/
 /*----------chombas---------*/

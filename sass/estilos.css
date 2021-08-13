@@ -26,6 +26,10 @@ body {
   font-size: 40px;
 }
 
+.menu-del-index {
+  margin: 0 2vh;
+}
+
 /*----------fotos-nav-principal---------*/
 .menu-del-index__remeras {
   background-image: url("../imagesnueva/remeras.png");
@@ -37,8 +41,8 @@ body {
 }
 
 .menu-del-index__remeras:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
   -webkit-transition: all 1s;
   transition: all 1s;
 }
@@ -52,8 +56,8 @@ body {
 }
 
 .menu-del-index__conjuntos:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
   -webkit-transition: all 1s;
   transition: all 1s;
 }
@@ -67,8 +71,8 @@ body {
 }
 
 .menu-del-index__chombas:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
   -webkit-transition: all 1s;
   transition: all 1s;
 }
@@ -82,8 +86,8 @@ body {
 }
 
 .menu-del-index__jeans:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
   -webkit-transition: all 1s;
   transition: all 1s;
 }
@@ -97,8 +101,8 @@ body {
 }
 
 .menu-del-index__sweaters:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
   -webkit-transition: all 1s;
   transition: all 1s;
 }
@@ -112,8 +116,8 @@ body {
 }
 
 .menu-del-index__buzos:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
   -webkit-transition: all 1s;
   transition: all 1s;
 }
@@ -309,7 +313,7 @@ header {
   }
   /* menu principal */
   #remera, #conjunto, #chomba, #jean, #sweater, #buzos {
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -594,7 +598,7 @@ input:focus {
 .card {
   margin: 10px;
   border: 3px solid gray;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 /*----------buzos---------*/
