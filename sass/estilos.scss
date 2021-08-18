@@ -713,8 +713,8 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
-    margin: 0 auto;
-    max-width: 1440px;
+    margin: 0 0;
+    
     overflow: hidden;
     padding: 0;
     position: relative;
@@ -723,13 +723,13 @@ section{
 .wraper{
     box-shadow: 0 0 12px black;
     margin: 0 auto;
-    width: 70%;
+    width: 90%;
 }
 
 .bloqueuno {
     background-image: url("../fabrica/fabricados.jpg");
     height: 500px;
-    width: auto;
+    width: 100%;
 }
 .bloquedos {
     background-image: url("../fabrica/fabricauno.jpg");
