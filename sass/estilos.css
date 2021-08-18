@@ -27,15 +27,9 @@ body {
 }
 
 .menu-del-index {
-  margin: 0;
-  margin-left: 2vh;
-  margin-right: 4vh;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  display: block;
+  margin-left: 0 !important;
+  margin-right: 2vh !important;
 }
 
 /*----------fotos-nav-principal---------*/

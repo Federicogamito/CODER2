@@ -23,11 +23,9 @@ body {
     }
 
     .menu-del-index{
-        margin:0;
-        margin-left: 2vh;
-        margin-right: 4vh;
-        align-items: center;
-        justify-content: center;
+        display: block;
+       margin-left: 0 !important;
+       margin-right: 2vh !important;
     }
     /*----------fotos-nav-principal---------*/
 .menu-del-index__remeras {
