@@ -23,8 +23,11 @@ body {
     }
 
     .menu-del-index{
-        margin: 0 2vh;
-        
+        margin:0;
+        margin-left: 2vh;
+        margin-right: 3.5vh;
+        align-items: center;
+        justify-content: center;
     }
     /*----------fotos-nav-principal---------*/
 .menu-del-index__remeras {
@@ -107,6 +110,7 @@ body {
     margin-top: 0;
     opacity: 0.76;
     text-align: center;
+    align-items: center;
     text-shadow: 1px 1px 1px #666;
     text-transform: uppercase;
 }
@@ -278,7 +282,7 @@ header{
     /* menu principal */
 #remera{
     font-size: 30px;
-    text-align: center;
+    align-items: center;
     justify-content: center;
 }
 
@@ -765,3 +769,48 @@ section{
 }
 /*----------parallax---------*/
 
+.btn{
+    width: 130px;
+    height: 45px;
+    background: none;
+    color: rgb(44, 44, 44);
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.05rem;
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow: 20px 20px 60px #d9d9d9,
+                -20px -20px 60px #ffffff;
+    position: relative;
+}
+
+.btn::before{
+    content: '';
+    position: absolute;
+    top: -10%;
+    left: -5%;
+    width: 110%;
+    height: 120%;
+    border-radius: 50px;
+    z-index: -1;
+    background: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
+    transform: scale(0.8);
+    transition: transform .4s;
+}
+
+.btn::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
+    z-index: -2;
+    filter: blur(10px)
+}
+
+.btn:hover::before{
+    transform: scale(1);
+}
