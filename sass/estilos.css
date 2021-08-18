@@ -334,6 +334,10 @@ header {
   .wraper {
     width: 90%;
   }
+  /* contacto */
+  .contacto {
+    font-size: 10px;
+  }
 }
 
 /*----------estilo-header---------*/
