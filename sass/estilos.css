@@ -323,6 +323,11 @@ header {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  /* mapa */
+  #mapa {
+    width: 300px;
+    height: 250px;
+  }
   /* destacados */
   #destacados {
     -webkit-box-orient: vertical;
@@ -337,6 +342,17 @@ header {
   /* contacto */
   .contacto {
     font-size: 10px;
+  }
+  /* personas */
+  #personas {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #personas img {
+    width: 60%;
+    height: auto;
   }
 }
 
@@ -882,5 +898,42 @@ section {
 .btn:hover::before {
   -webkit-transform: scale(1);
           transform: scale(1);
+}
+
+/*----------quienes/somos---------*/
+#personas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 0px 30px;
+}
+
+#personas img {
+  border-radius: 100%;
+  border: solid 2px black;
+}
+
+#personas img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+#personas p {
+  color: black;
+}
+
+#personas h5 {
+  color: orangered;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 70px;
 }
 /*# sourceMappingURL=estilos.css.map */

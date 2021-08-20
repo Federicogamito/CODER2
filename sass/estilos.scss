@@ -281,9 +281,12 @@ header{
     font-size: 30px;
     align-items: center;
     justify-content: center;
-}
-
-
+    }
+    /* mapa */
+    #mapa{
+        width: 300px;
+        height: 250px;
+    }
     /* destacados */
 
     #destacados{
@@ -299,6 +302,18 @@ header{
     .contacto {
         font-size: 10px;
     }
+    /* personas */
+
+    #personas{
+        flex-direction: column;
+    }
+
+    #personas img{
+        width: 60%;
+        height: auto;
+    }
+
+    
 
 }
 /*----------estilo-header---------*/
@@ -821,4 +836,36 @@ section{
 
 .btn:hover::before{
     transform: scale(1);
+}
+
+/*----------quienes/somos---------*/
+
+#personas{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 30px;
+}
+
+#personas img{
+    border-radius: 100%;
+    border: solid 2px black;
+}
+
+#personas img:hover{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+#personas p{
+    color: black;
+}
+
+#personas h5{
+    color: orangered;
+    text-transform: uppercase;
+}
+
+h4{
+    font-size: 70px;
 }
