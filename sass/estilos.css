@@ -887,7 +887,7 @@ section {
   height: 120%;
   border-radius: 50px;
   z-index: -1;
-  background: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
+  background: linear-gradient(45deg, #ffd800, #fd6d41, #ff470f, #ff0000);
   -webkit-transform: scale(0.8);
           transform: scale(0.8);
   -webkit-transition: -webkit-transform .4s;
@@ -903,7 +903,7 @@ section {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
+  background: linear-gradient(45deg, #ffd800, #fd6d41, #ff470f, #ff0000);
   z-index: -2;
   -webkit-filter: blur(10px);
           filter: blur(10px);
