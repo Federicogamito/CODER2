@@ -313,7 +313,9 @@ header{
         height: auto;
     }
 
-    
+    .contenedorCards{
+        flex-direction: column;
+    }
 
 }
 /*----------estilo-header---------*/
@@ -587,6 +589,11 @@ display: block;
 .cajaProductos {
 display: flex;
 justify-content: center;
+}
+
+.contenedorCards{
+    display: flex;
+
 }
 /*----------chombas---------*/
 /*----------conjuntos---------*/
