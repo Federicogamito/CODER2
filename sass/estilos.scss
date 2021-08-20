@@ -536,15 +536,16 @@ display: block;
     font-size: 25px;
     text-align: center;
 }
-.card-img-top:hover{
-    transform: scale(1.5);
-    transition: all 1.5s;
-}
-
 .card{
-    margin: 10px;
+    margin: 50px;
     border: 3px solid gray;
     border-radius: 10px;
+    padding: 20px;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: all 1.5s;
+    overflow: hidden;
 }
 /*----------buzos---------*/
 /*----------chombas---------*/
